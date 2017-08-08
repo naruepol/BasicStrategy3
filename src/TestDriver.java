@@ -4,6 +4,7 @@ public class TestDriver {
 	public static void main(String[] args) {
 		MallardDuck d1 = new MallardDuck();
 		d1.setQuackBehavior(new Squeak());
+		d1.setFlyBehavior(new FlyWithRocket());
 		d1.performQuack();   //Quack! Quack!
 		d1.display(); //Look like a mallard
 		d1.performFly(); // I'm flying with wing
